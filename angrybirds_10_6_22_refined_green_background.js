@@ -116,7 +116,7 @@ function draw(){
       frameRate(1);
       LEVEL_UP_TRACK.play();
       fill(150 , 40 , 60);
-      text("Level UP!!" , SCREEN_WIDTH/2 , 100);
+      text("Level-UP!!" , SCREEN_WIDTH/2 , 100);
       bird.body.position.x=200;
       bird.body.position.y=SCREEN_HEIGHT-250;
       Body.setAngle(bird.body,0);
